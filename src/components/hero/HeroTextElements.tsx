@@ -9,10 +9,11 @@ import { fadeIn, slideInFromBottom } from "@/lib/motion";
 import Link from "next/link";
 import Image from "next/image";
 import { HiArrowRight } from "react-icons/hi";
+import useScreenWidth from "@/hooks/getScreenWidth";
 
 export const HeroTitle = ({ className }: { className: string }) => {
   const ref = useRef(null);
-  const screenWidth = window.innerWidth;
+  const screenWidth = useScreenWidth();
   const transformMapKey =
     screenWidth < 768 ? "mobile" : screenWidth < 1280 ? "large" : "xLarge";
 
@@ -62,7 +63,7 @@ export const HeroTitle = ({ className }: { className: string }) => {
 };
 
 export const HeroDescription = ({ className }: { className: string }) => {
-  const screenWidth = window.innerWidth;
+  const screenWidth = useScreenWidth();
   const isMobile = screenWidth < 768;
   return (
     <motion.div

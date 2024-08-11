@@ -1,4 +1,5 @@
 "use client";
+import useScreenWidth from "@/hooks/getScreenWidth";
 import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 import { PastEventsCard } from "./PastEventsCard";
 import { pastEvents } from "./PastEventsCopy";
@@ -15,7 +16,7 @@ export type PastEventsType = {
 }[];
 
 const PastEventsBackdrop = ({ pastEvents }: { pastEvents: PastEventsType }) => {
-  const screenWidth = window.innerWidth;
+  const screenWidth = useScreenWidth();
   const transformMapKey =
     screenWidth < 768 ? "mobile" : screenWidth < 1280 ? "large" : "xLarge";
 
