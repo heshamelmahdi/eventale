@@ -92,7 +92,7 @@ const ProjectsBtn = () => {
         className="relative w-[60px] h-[60px] md:w-[100px] md:h-[100px] xl:w-[130px] xl:h-[130px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group"
       >
         <Image
-          src="/past-projects.png"
+          src="https://storage.googleapis.com/eventale-website-media/past-projects.png"
           width={148}
           height={148}
           alt="See Projects Button"
