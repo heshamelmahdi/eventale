@@ -86,11 +86,11 @@ export const InfiniteMovingCards = ({
         {items.map((item, idx) => (
           <PastEventsCard
             key={idx}
-            // beforeBg={item.beforeBg}
-            // afterBg1={item.afterBg1}
-            // afterBg2={item.afterBg2}
-            image={item.image}
-            video={item.video}
+            beforeBg={item.beforeBg}
+            afterBg1={item.afterBg1}
+            afterBg2={item.afterBg2}
+            // image={item.image}
+            // video={item.video}
             title={item.title}
             description={item.description}
             location={item.location}

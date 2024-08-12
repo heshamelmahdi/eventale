@@ -5,16 +5,16 @@ import { PastEventsCard } from "./PastEventsCard";
 import { pastEvents } from "./PastEventsCopy";
 
 export type PastEventType = {
-  // beforeBg: string;
-  // afterBg1: string;
-  // afterBg2: string;
+  beforeBg: string;
+  afterBg1: string;
+  afterBg2: string;
   title: string;
   description: string;
   location: string;
   theme: string;
   projectName: string;
-  image: string;
-  video: string;
+  // image: string;
+  // video: string;
 };
 
 export type PastEventsType = PastEventType[];
@@ -47,11 +47,11 @@ const PastEventsBackdrop = ({ pastEvents }: { pastEvents: PastEventsType }) => {
     return pastEvents.slice(0, slice).map((proj, index) => (
       <PastEventsCard
         key={index}
-        // beforeBg={proj.beforeBg}
-        // afterBg1={proj.afterBg1}
-        // afterBg2={proj.afterBg2}
-        image={proj.image}
-        video={proj.video}
+        beforeBg={proj.beforeBg}
+        afterBg1={proj.afterBg1}
+        afterBg2={proj.afterBg2}
+        // image={proj.image}
+        // video={proj.video}
         title={proj.title}
         description={proj.description}
         location={proj.location}
