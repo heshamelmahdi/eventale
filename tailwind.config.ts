@@ -45,15 +45,15 @@ const config: Config = {
         "byoutak-8":
           "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/8.webp)",
         "byoutak-gif-1":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/byoutak-1.webm)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/6.gif)",
         "byoutak-gif-2":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/byoutak-2.webm)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/7.gif)",
         "byoutak-gif-3":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/byoutak-3.webm)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/8.gif)",
         "byoutak-gif-4":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/byoutak-4.webm)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/9.gif)",
         "byoutak-gif-5":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/byoutak-5.webm)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/10.gif)",
         "phieg-1":
           "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/1.webp)",
         "phieg-2":
