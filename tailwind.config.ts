@@ -31,13 +31,13 @@ const config: Config = {
         "byoutak-1":
           "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/1.png)",
         "byoutak-2":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/2.png)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/2.PNG)",
         "byoutak-3":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/3.jpg)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/3.JPG)",
         "byoutak-4":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/4.jpg)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/4.JPG)",
         "byoutak-5":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/5.jpg)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/5.JPG)",
         "byoutak-6":
           "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/6.png)",
         "byoutak-7":
@@ -55,9 +55,9 @@ const config: Config = {
         "byoutak-gif-5":
           "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/10.gif)",
         "phieg-1":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/1.jpg)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/1.JPG)",
         "phieg-2":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/2.jpg)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/2.JPG)",
         "phieg-3":
           "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/3.png)",
         "phieg-gif-1":
@@ -71,9 +71,9 @@ const config: Config = {
         "phieg-gif-5":
           "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/5.gif)",
         mostafa:
-          "url(https://storage.googleapis.com/eventale-website-media/team/mostafa.jpg)",
+          "url(https://storage.googleapis.com/eventale-website-media/team/mostafa.JPG)",
         samar:
-          "url(https://storage.googleapis.com/eventale-website-media/team/samar.jpg)",
+          "url(https://storage.googleapis.com/eventale-website-media/team/samar.JPG)",
         ahmed:
           "url(https://storage.googleapis.com/eventale-website-media/team/ahmed.jpeg)",
         bahy: "url(https://storage.googleapis.com/eventale-website-media/team/bahy.jpeg)",
