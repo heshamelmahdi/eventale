@@ -28,48 +28,48 @@ const config: Config = {
           "url(https://storage.googleapis.com/eventale-website-media/services/conference-1.webp)",
         "conference-2":
           "url(https://storage.googleapis.com/eventale-website-media/services/conference-2.webp)",
-        "byoutak-1":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/1.webp)",
-        "byoutak-2":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/2.webp)",
-        "byoutak-3":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/3.webp)",
-        "byoutak-4":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/4.webp)",
-        "byoutak-5":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/5.webp)",
-        "byoutak-6":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/6.webp)",
-        "byoutak-7":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/7.webp)",
-        "byoutak-8":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/8.webp)",
-        "byoutak-gif-1":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/6.gif)",
-        "byoutak-gif-2":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/7.gif)",
-        "byoutak-gif-3":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/8.gif)",
-        "byoutak-gif-4":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/9.gif)",
-        "byoutak-gif-5":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/10.gif)",
-        "phieg-1":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/1.webp)",
-        "phieg-2":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/2.webp)",
-        "phieg-3":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/3.webp)",
-        "phieg-gif-1":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/1.gif)",
-        "phieg-gif-2":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/2.gif)",
-        "phieg-gif-3":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/3.gif)",
-        "phieg-gif-4":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/4.gif)",
-        "phieg-gif-5":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/5.gif)",
+        // "byoutak-1":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/1.webp)",
+        // "byoutak-2":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/2.webp)",
+        // "byoutak-3":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/3.webp)",
+        // "byoutak-4":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/4.webp)",
+        // "byoutak-5":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/5.webp)",
+        // "byoutak-6":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/6.webp)",
+        // "byoutak-7":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/7.webp)",
+        // "byoutak-8":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/8.webp)",
+        // "byoutak-gif-1":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/byoutak-1.webm)",
+        // "byoutak-gif-2":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/byoutak-2.webm)",
+        // "byoutak-gif-3":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/byoutak-3.webm)",
+        // "byoutak-gif-4":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/byoutak-4.webm)",
+        // "byoutak-gif-5":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/byoutak-5.webm)",
+        // "phieg-1":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/1.webp)",
+        // "phieg-2":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/2.webp)",
+        // "phieg-3":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/3.webp)",
+        // "phieg-gif-1":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/1.gif)",
+        // "phieg-gif-2":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/2.gif)",
+        // "phieg-gif-3":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/3.gif)",
+        // "phieg-gif-4":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/4.gif)",
+        // "phieg-gif-5":
+        //   "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/5.gif)",
         mostafa:
           "url(https://storage.googleapis.com/eventale-website-media/team/mostafa.webp)",
         samar:

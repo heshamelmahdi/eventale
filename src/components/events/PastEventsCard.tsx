@@ -3,29 +3,24 @@ import { anton } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
 import { useRouter } from "next/navigation";
 import { FaArrowRight } from "react-icons/fa";
+import { PastEventType } from "./PastEventsBackdrop";
+import Image from "next/image";
 
 export function PastEventsCard({
-  beforeBg,
-  afterBg1,
-  afterBg2,
+  // beforeBg,
+  // afterBg1,
+  // afterBg2,
+  image,
+  video,
   title,
   description,
   location,
   theme,
   projectName,
-}: {
-  beforeBg: string;
-  afterBg1: string;
-  afterBg2: string;
-  title: string;
-  description: string;
-  location: string;
-  theme: string;
-  projectName: string;
-}) {
-  const before1 = `${beforeBg} bg-cover`;
-  const after1 = `${afterBg1} before:z-[-1]`;
-  const after2 = `${afterBg2}`;
+}: PastEventType) {
+  // const before1 = `${beforeBg} bg-cover`;
+  // const after1 = `${afterBg1} before:z-[-1]`;
+  // const after2 = `${afterBg2}`;
 
   const router = useRouter();
   const handleOpenProject = () => {
@@ -36,14 +31,29 @@ export function PastEventsCard({
       <div
         className={cn(
           "group w-full overflow-hidden relative card h-96 shadow-xl mx-auto flex flex-col justify-end p-4 border border-transparent dark:border-neutral-800",
-          before1,
-          // Preload hover image by setting it in a pseudo-element
-          after1,
-          after2,
+          // before1,
+          // // Preload hover image by setting it in a pseudo-element
+          // after1,
+          // after2,
           "hover:after:content-[''] hover:after:absolute hover:after:inset-0 hover:after:bg-black hover:after:opacity-50",
           "transition-all duration-500 grayscale hover:filter-none opacity-20 hover:opacity-100"
         )}
       >
+        <Image
+          src={image}
+          alt={title}
+          objectFit="cover"
+          width={600}
+          height={1000}
+          className="group-hover:z-[-1] absolute inset-0 object-cover w-full h-full"
+        />
+        <video
+          src={video}
+          autoPlay
+          loop
+          muted
+          className="absolute inset-0 object-cover w-full h-full z-[-1] group-hover:z-[30]"
+        />
         <div className="text relative z-50 h-full flex flex-col justify-between">
           <h1
             className={cn(
