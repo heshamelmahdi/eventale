@@ -76,7 +76,7 @@ export const HeroDescription = ({ className }: { className: string }) => {
       animate="show"
       exit="hidden"
     >
-      <motion.p className="translate-y-24 lg:translate-y-32 min-[1300px]:translate-y-36 min-[1600px]:translate-y-52 w-[70%] md:w-[60%] lg:w-[50%] xl:w-[40%] text-center">
+      <motion.p className="translate-y-24 lg:translate-y-32 min-[1300px]:translate-y-36 min-[1750px]:translate-y-52 w-[70%] md:w-[60%] lg:w-[50%] xl:w-[40%] text-center">
         {isMobile
           ? "Unforgettable entertainment, immersive experiences, and moments that inspire."
           : "Elevating corporate events in Egypt with unforgettable entertainment, immersive experiences, and moments that inspire."}
@@ -87,7 +87,7 @@ export const HeroDescription = ({ className }: { className: string }) => {
 
 const ProjectsBtn = () => {
   return (
-    <div className="mx-auto xl:mx-0 translate-y-40 p-4 md:translate-y-60 min-[1300px]:translate-y-[18rem] min-[1600px]:translate-y-[22rem] bg-primary rounded-full cursor-pointer">
+    <div className="mx-auto xl:mx-0 translate-y-40 p-1 xl:p-4 md:translate-y-60 min-[1300px]:translate-y-[18rem] min-[1750px]:translate-y-[22rem] bg-primary rounded-full cursor-pointer">
       <Link
         href="#past-events"
         className="relative w-[60px] h-[60px] md:w-[100px] md:h-[100px] xl:w-[130px] xl:h-[130px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group"

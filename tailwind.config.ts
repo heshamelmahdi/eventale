@@ -13,37 +13,37 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "corporate-1":
-          "url(https://storage.googleapis.com/eventale-website-media/services/corporate-1.jpg)",
+          "url(https://storage.googleapis.com/eventale-website-media/services/corporate-1.webp)",
         "corporate-2":
-          "url(https://storage.googleapis.com/eventale-website-media/services/corporate-2.jpg)",
+          "url(https://storage.googleapis.com/eventale-website-media/services/corporate-2.webp)",
         "office-1":
-          "url(https://storage.googleapis.com/eventale-website-media/services/office-1.jpg)",
+          "url(https://storage.googleapis.com/eventale-website-media/services/office-1.webp)",
         "office-2":
-          "url(https://storage.googleapis.com/eventale-website-media/services/office-2.jpg)",
+          "url(https://storage.googleapis.com/eventale-website-media/services/office-2.webp)",
         "outdoor-1":
-          "url(https://storage.googleapis.com/eventale-website-media/services/outdoor-1.jpg)",
+          "url(https://storage.googleapis.com/eventale-website-media/services/outdoor-1.webp)",
         "outdoor-2":
-          "url(https://storage.googleapis.com/eventale-website-media/services/outdoor-2.jpg)",
+          "url(https://storage.googleapis.com/eventale-website-media/services/outdoor-2.webp)",
         "conference-1":
-          "url(https://storage.googleapis.com/eventale-website-media/services/conference-1.jpg)",
+          "url(https://storage.googleapis.com/eventale-website-media/services/conference-1.webp)",
         "conference-2":
-          "url(https://storage.googleapis.com/eventale-website-media/services/conference-2.jpg)",
+          "url(https://storage.googleapis.com/eventale-website-media/services/conference-2.webp)",
         "byoutak-1":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/1.png)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/1.webp)",
         "byoutak-2":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/2.PNG)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/2.webp)",
         "byoutak-3":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/3.JPG)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/3.webp)",
         "byoutak-4":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/4.JPG)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/4.webp)",
         "byoutak-5":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/5.JPG)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/5.webp)",
         "byoutak-6":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/6.png)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/6.webp)",
         "byoutak-7":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/7.png)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/7.webp)",
         "byoutak-8":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/8.png)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/8.webp)",
         "byoutak-gif-1":
           "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/6.gif)",
         "byoutak-gif-2":
@@ -55,11 +55,11 @@ const config: Config = {
         "byoutak-gif-5":
           "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/10.gif)",
         "phieg-1":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/1.JPG)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/1.webp)",
         "phieg-2":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/2.JPG)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/2.webp)",
         "phieg-3":
-          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/3.png)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/3.webp)",
         "phieg-gif-1":
           "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/1.gif)",
         "phieg-gif-2":
@@ -71,12 +71,12 @@ const config: Config = {
         "phieg-gif-5":
           "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/5.gif)",
         mostafa:
-          "url(https://storage.googleapis.com/eventale-website-media/team/mostafa.JPG)",
+          "url(https://storage.googleapis.com/eventale-website-media/team/mostafa.webp)",
         samar:
-          "url(https://storage.googleapis.com/eventale-website-media/team/samar.JPG)",
+          "url(https://storage.googleapis.com/eventale-website-media/team/samar.webp)",
         ahmed:
-          "url(https://storage.googleapis.com/eventale-website-media/team/ahmed.jpeg)",
-        bahy: "url(https://storage.googleapis.com/eventale-website-media/team/bahy.jpeg)",
+          "url(https://storage.googleapis.com/eventale-website-media/team/ahmed.webp)",
+        bahy: "url(https://storage.googleapis.com/eventale-website-media/team/bahy.webp)",
       },
       colors: {
         primary: "#ffde59",
