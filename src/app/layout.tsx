@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { montserrat } from "@/lib/fonts";
+import { constructMetadata } from "@/lib/utils";
 
-export const metadata: Metadata = {
-  title: "Eventale",
-  description: "The leading event management provider in Egypt.",
-};
+export const metadata: Metadata = constructMetadata();
 
 export default function RootLayout({
   children,

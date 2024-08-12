@@ -1,0 +1,6 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.eventale.co/sitemap.xml
+Sitemap: https://eventale.co/sitemap.xml

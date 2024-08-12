@@ -6,11 +6,11 @@ import { usePathname } from "next/navigation";
 import { events } from "./eventData";
 import { cn } from "@/lib/utils";
 import { anton } from "@/lib/fonts";
+import { EventKeys } from "./layout";
 
 const Page = () => {
   const pathname = usePathname();
   const projectName = pathname.split("/")[2];
-  type EventKeys = "phieg-beach-day" | "byoutak-the-godfather";
 
   const project = events[projectName as EventKeys];
 
