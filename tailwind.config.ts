@@ -17,17 +17,17 @@ const config: Config = {
         "corporate-2":
           "url(https://storage.googleapis.com/eventale-website-media/services/corporate-2.webp)",
         "office-1":
-          "url(https://storage.googleapis.com/eventale-website-media/services/office-1.webp)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/3.webp)",
         "office-2":
-          "url(https://storage.googleapis.com/eventale-website-media/services/office-2.webp)",
+          "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/2.webp)",
         "outdoor-1":
-          "url(https://storage.googleapis.com/eventale-website-media/services/outdoor-1.webp)",
+          "url(https://storage.googleapis.com/eventale-website-media/services/retreat-1.jpg)",
         "outdoor-2":
-          "url(https://storage.googleapis.com/eventale-website-media/services/outdoor-2.webp)",
+          "url(https://storage.googleapis.com/eventale-website-media/services/retreat-2.jpg)",
         "conference-1":
           "url(https://storage.googleapis.com/eventale-website-media/services/conference-1.webp)",
         "conference-2":
-          "url(https://storage.googleapis.com/eventale-website-media/services/conference-2.webp)",
+          "url(https://storage.googleapis.com/eventale-website-media/services/conference-2.jpg)",
         "byoutak-1":
           "url(https://storage.googleapis.com/eventale-website-media/past-events/byoutak/1.webp)",
         "byoutak-2":
@@ -71,12 +71,12 @@ const config: Config = {
         "phieg-gif-5":
           "url(https://storage.googleapis.com/eventale-website-media/past-events/phieg/5.gif)",
         mostafa:
-          "url(https://storage.googleapis.com/eventale-website-media/team/mostafa.webp)",
+          "url(https://storage.googleapis.com/eventale-website-media/team/mostafa.JPG)",
         samar:
-          "url(https://storage.googleapis.com/eventale-website-media/team/samar.webp)",
+          "url(https://storage.googleapis.com/eventale-website-media/team/samar.JPG)",
         ahmed:
-          "url(https://storage.googleapis.com/eventale-website-media/team/ahmed.webp)",
-        bahy: "url(https://storage.googleapis.com/eventale-website-media/team/bahy.webp)",
+          "url(https://storage.googleapis.com/eventale-website-media/team/ahmed.jpeg)",
+        bahy: "url(https://storage.googleapis.com/eventale-website-media/team/bahy.jpeg)",
       },
       colors: {
         primary: "#ffde59",

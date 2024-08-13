@@ -41,7 +41,7 @@ const WhatWeDo = () => {
   return (
     <section
       id="what-we-do"
-      className="flex flex-col z-50 bg-primary pt-20 items-center gap-24"
+      className="flex flex-col z-50 bg-primary pt-10 items-center gap-8"
     >
       <SectionHeader
         topLine={whatWeDoHeader.topLine}

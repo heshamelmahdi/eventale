@@ -22,25 +22,57 @@ export type PastEventsType = PastEventType[];
 const PastEventsBackdrop = ({ pastEvents }: { pastEvents: PastEventsType }) => {
   const screenWidth = useScreenWidth();
   const transformMapKey =
-    screenWidth < 768 ? "mobile" : screenWidth < 1280 ? "large" : "xLarge";
+    screenWidth < 768
+      ? "mobile"
+      : screenWidth < 1024
+      ? "tablet"
+      : screenWidth < 1280
+      ? "large"
+      : "xLarge";
 
   const sliceEventsMap = {
     mobile: 24,
-    large: 16,
-    xLarge: 24,
+    tablet: 9,
+    large: 12,
+    xLarge: 18,
   };
   const slice = sliceEventsMap[transformMapKey];
+
+  const PastEventsChildren = ({
+    cardClassName,
+  }: {
+    cardClassName?: string;
+  }) => {
+    return pastEvents.map((item, idx) => (
+      <PastEventsCard
+        key={idx}
+        beforeBg={item.beforeBg}
+        afterBg1={item.afterBg1}
+        afterBg2={item.afterBg2}
+        // image={item.image}
+        // video={item.video}
+        title={item.title}
+        description={item.description}
+        location={item.location}
+        theme={item.theme}
+        projectName={item.projectName}
+        cardClassName={cardClassName}
+      />
+    ));
+  };
 
   if (transformMapKey === "mobile") {
     return (
       <div>
-        <InfiniteMovingCards items={pastEvents} speed="slow" direction="left" />
-        <InfiniteMovingCards
-          items={pastEvents}
-          speed="slow"
-          direction="right"
-        />
-        <InfiniteMovingCards items={pastEvents} speed="slow" direction="left" />
+        <InfiniteMovingCards speed="extraslow" direction="left">
+          <PastEventsChildren cardClassName="opacity-100 filter-none" />
+        </InfiniteMovingCards>
+        <InfiniteMovingCards speed="extraslow" direction="right">
+          <PastEventsChildren />
+        </InfiniteMovingCards>
+        <InfiniteMovingCards speed="extraslow" direction="left">
+          <PastEventsChildren cardClassName="opacity-100 filter-none" />
+        </InfiniteMovingCards>
       </div>
     );
   } else {

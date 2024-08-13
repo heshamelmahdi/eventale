@@ -18,6 +18,11 @@ const SectionHeader = ({
   description: string;
   className?: string;
 }) => {
+  const titleDivClassName =
+    "flex w-[80%] md:w-[60%] items-center justify-center space-x-2 md:space-x-4 overflow-hidden";
+
+  const titleWordsClassName =
+    "uppercase text-4xl md:text-5xl min-[947px]:text-6xl min-[1128px]:text-7xl min-[1500px]:text-8xl overflow-hidden";
   return (
     <div
       className={cn(
@@ -30,7 +35,7 @@ const SectionHeader = ({
       </h3>
       <div className="flex flex-col w-full items-center justify-center">
         <motion.div
-          className="flex w-[80%] md:w-[60%] items-center justify-center space-x-2 md:space-x-4 overflow-hidden"
+          className={cn(titleDivClassName)}
           variants={fadeIn("up", 0.2)}
           initial="hidden"
           whileInView="show"
@@ -41,7 +46,7 @@ const SectionHeader = ({
               key={index}
               className={cn(
                 anton.className,
-                "uppercase text-4xl md:text-7xl xl:text-8xl overflow-hidden",
+                titleWordsClassName,
                 word.className
               )}
             >
@@ -50,7 +55,7 @@ const SectionHeader = ({
           ))}
         </motion.div>
         <motion.div
-          className="flex w-[90%] md:w-[60%] items-center justify-center space-x-2 md:space-x-4 overflow-hidden"
+          className={cn(titleDivClassName, "w-[90%]")}
           variants={fadeIn("up", 0.4)}
           initial="hidden"
           whileInView="show"
@@ -61,7 +66,7 @@ const SectionHeader = ({
               key={index}
               className={cn(
                 anton.className,
-                "uppercase text-4xl md:text-7xl xl:text-8xl overflow-hidden",
+                titleWordsClassName,
                 word.className
               )}
             >
@@ -71,7 +76,7 @@ const SectionHeader = ({
         </motion.div>
       </div>
       <motion.p
-        className="font-light text-sm md:font-thin md:text-lg w-[80%] md:w-[50%] text-center"
+        className="font-light text-sm md:font-thin min-[1500px]:text-lg w-[80%] md:w-[50%] text-center"
         variants={fadeIn("up", 0.6)}
         initial="hidden"
         whileInView="show"

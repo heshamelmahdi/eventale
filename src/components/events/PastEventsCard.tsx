@@ -6,6 +6,10 @@ import { FaArrowRight } from "react-icons/fa";
 import { PastEventType } from "./PastEventsBackdrop";
 import Image from "next/image";
 
+type PastEventsCardProps = PastEventType & {
+  cardClassName?: string;
+};
+
 export function PastEventsCard({
   beforeBg,
   afterBg1,
@@ -17,7 +21,8 @@ export function PastEventsCard({
   location,
   theme,
   projectName,
-}: PastEventType) {
+  cardClassName,
+}: PastEventsCardProps) {
   const before1 = `${beforeBg} bg-cover`;
   const after1 = `${afterBg1} before:z-[-1]`;
   const after2 = `${afterBg2}`;
@@ -36,7 +41,8 @@ export function PastEventsCard({
           after1,
           after2,
           "hover:after:content-[''] hover:after:absolute hover:after:inset-0 hover:after:bg-black hover:after:opacity-50",
-          "transition-all duration-500 grayscale hover:filter-none opacity-20 hover:opacity-100"
+          "transition-all duration-500 grayscale hover:filter-none opacity-20 hover:opacity-100",
+          cardClassName
         )}
       >
         {/* <Image

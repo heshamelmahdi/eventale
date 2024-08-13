@@ -6,15 +6,17 @@ import { PastEventsCard } from "../events/PastEventsCard";
 import { PastEventsType } from "../events/PastEventsBackdrop";
 
 export const InfiniteMovingCards = ({
-  items,
+  // items,
+  children,
   direction = "left",
   speed = "fast",
   pauseOnHover = true,
   className,
 }: {
-  items: PastEventsType;
+  // items: PastEventsType;
+  children: React.ReactNode;
   direction?: "left" | "right";
-  speed?: "fast" | "normal" | "slow";
+  speed?: "fast" | "normal" | "slow" | "extraslow";
   pauseOnHover?: boolean;
   className?: string;
 }) => {
@@ -62,8 +64,10 @@ export const InfiniteMovingCards = ({
         containerRef.current.style.setProperty("--animation-duration", "20s");
       } else if (speed === "normal") {
         containerRef.current.style.setProperty("--animation-duration", "40s");
-      } else {
+      } else if (speed === "slow") {
         containerRef.current.style.setProperty("--animation-duration", "80s");
+      } else if (speed === "extraslow") {
+        containerRef.current.style.setProperty("--animation-duration", "120s");
       }
     }
   };
@@ -83,21 +87,7 @@ export const InfiniteMovingCards = ({
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
-        {items.map((item, idx) => (
-          <PastEventsCard
-            key={idx}
-            beforeBg={item.beforeBg}
-            afterBg1={item.afterBg1}
-            afterBg2={item.afterBg2}
-            // image={item.image}
-            // video={item.video}
-            title={item.title}
-            description={item.description}
-            location={item.location}
-            theme={item.theme}
-            projectName={item.projectName}
-          />
-        ))}
+        {children}
       </ul>
     </div>
   );

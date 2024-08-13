@@ -54,7 +54,7 @@ export default Footer;
 
 const Copyright = () => {
   return (
-    <div className="text-sm font-thin">
+    <div className="text-sm font-thin w-fit min-w-44">
       Site by{" "}
       <span
         className="cursor-pointer hover:underline transition-all duration-700"
@@ -70,7 +70,7 @@ const Copyright = () => {
 const NavLinks = () => {
   return (
     <motion.div
-      className="flex items-center justify-center gap-4 text-white"
+      className="w-full flex items-center justify-start md:justify-center gap-4 text-white"
       variants={staggerUp}
       initial="initial"
       animate="animate"
@@ -80,7 +80,7 @@ const NavLinks = () => {
         <Link
           key={index}
           href={item.link}
-          className="text-sm font-thin cursor-pointer hover:text-primary transition-all duration-300 z-50"
+          className="text-xs md:text-sm font-thin cursor-pointer hover:text-primary transition-all duration-300 z-50"
         >
           {item.title}
         </Link>

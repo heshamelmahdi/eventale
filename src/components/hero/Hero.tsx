@@ -34,7 +34,7 @@ const Hero = () => {
           alt="Egypt Pyramids"
           width={1500}
           height={1000}
-          className="absolute bottom-0 left-[50%] translate-x-[-50%] w-full md:w-[50%] h-[50%] brightness-[0.1] z-10 bg-blend-color-burn"
+          className="absolute bottom-0 left-[50%] translate-x-[-47%] w-full md:w-[50%] h-[50%] brightness-[0.1] z-10 bg-blend-color-burn"
           priority
           loading="eager"
         />

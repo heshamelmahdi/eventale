@@ -27,14 +27,14 @@ export const navItems = [
 const Navbar = () => {
   return (
     <nav className="w-full absolute top-0 z-50 h-[65px] p-5 overflow-hidden flex items-center">
-      <div className="flex justify-between w-full">
+      <div className="flex justify-between items-center w-full">
         <Link href={"/"}>
           <Image
             src="/logo.svg"
             alt="Eventale Logo"
             width={200}
             height={25}
-            className="object-cover"
+            className="object-cover w-[150px] h-[18.75px] md:w-[200px] md:h-[25px]"
           />
         </Link>
 
