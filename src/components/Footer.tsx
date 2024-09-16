@@ -1,4 +1,4 @@
-import { anton } from "@/lib/fonts";
+import localFont from "next/font/local";
 import { staggerUp } from "@/lib/motion";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
@@ -12,6 +12,8 @@ import {
   openInstagramPage,
 } from "@/lib/socialActions";
 
+const archicoco = localFont({ src: "../../public/fonts/archicoco.otf" });
+
 const Footer = ({ className }: { className?: string }) => {
   return (
     <footer
@@ -24,11 +26,11 @@ const Footer = ({ className }: { className?: string }) => {
       <div className="w-full h-full overflow-hidden flex justify-start">
         <h1
           className={cn(
-            "uppercase text-[70px] md:text-[100px] text-primary",
-            anton.className
+            "text-[70px] md:text-[100px] text-primary tracking-tighter",
+            archicoco.className
           )}
         >
-          EVENTALE
+          eventale
         </h1>
       </div>
 

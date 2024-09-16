@@ -4,11 +4,11 @@ export const contactUsHeader = {
   line1: [
     {
       word: "Ready",
-      className: "",
+      className: "text-white",
     },
     {
       word: "to",
-      className: "",
+      className: "text-white",
     },
     {
       word: "Elevate",
@@ -18,7 +18,7 @@ export const contactUsHeader = {
   line2: [
     {
       word: "Your",
-      className: "",
+      className: "text-white",
     },
     {
       word: "Event?",

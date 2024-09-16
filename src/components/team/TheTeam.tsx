@@ -6,16 +6,6 @@ import { TeamMemberCard } from "./TeamMemberCard";
 const TheTeam = () => {
   const teamMembers = [
     {
-      bg: "bg-mostafa",
-      title: "Mostafa Ahmed",
-      description: "Co-Founder",
-    },
-    {
-      bg: "bg-samar",
-      title: "Samar Sabeck",
-      description: "Co-Founder",
-    },
-    {
       bg: "bg-ahmed",
       title: "Ahmed El-Mahdi",
       description: "Co-Founder",
@@ -23,6 +13,16 @@ const TheTeam = () => {
     {
       bg: "bg-bahy",
       title: "Bahy Amer",
+      description: "Co-Founder",
+    },
+    {
+      bg: "bg-mostafa",
+      title: "Mostafa Ahmed",
+      description: "Co-Founder",
+    },
+    {
+      bg: "bg-samar",
+      title: "Samar Sabeck",
       description: "Co-Founder",
     },
   ];

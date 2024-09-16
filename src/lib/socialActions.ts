@@ -1,5 +1,5 @@
 export const openWhatsAppChat = () => {
-  const phoneNumber = "17652404848";
+  const phoneNumber = "201119926330";
   const message =
     "Hi, I am interested in your event management services! I am looking for...";
 

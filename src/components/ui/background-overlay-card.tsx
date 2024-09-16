@@ -38,13 +38,13 @@ export function BackgroundOverlayCard({
           after1,
           after2,
           "hover:after:content-[''] hover:after:absolute hover:after:inset-0 hover:after:bg-black hover:after:opacity-50",
-          "transition-all duration-500 grayscale hover:filter-none hover:opacity-100"
+          "transition-all duration-500 hover:grayscale filter-none hover:opacity-100"
         )}
       >
         <div className="text relative z-50 h-full flex flex-col justify-between">
           <h1
             className={cn(
-              "font-bold text-xl md:text-3xl text-black relative group-hover:text-primary transition-all duration-75",
+              "font-bold text-xl md:text-3xl text-primary relative group-hover:text-black transition-all duration-75",
               anton.className
             )}
           >

@@ -42,7 +42,7 @@ export const HeroTitle = ({ className }: { className: string }) => {
   );
 
   const titleClassName = cn(
-    "text-center text-4xl md:text-5xl lg:text-7xl xl:text-9xl font-extrabold md:overflow-hidden z-[8]",
+    "text-white text-center text-4xl md:text-5xl lg:text-7xl xl:text-9xl font-extrabold md:overflow-hidden z-[8]",
     anton.className
   );
 

@@ -36,7 +36,7 @@ const generateEventArray = (
   return randomize(eventsArray).slice(0, PROJECT_SPLIT);
 };
 
-const phiegTitle = "Phieg Beach Day";
+const phiegTitle = "Phieg(‘s) Beach Day";
 const phiegDescription =
   "Hosted a day of fun at the beach. Transforming the Phieg office into a beach paradise.";
 const phiegLocation = "Phieg Marketing Agency";
@@ -61,7 +61,7 @@ const phiegVideoSrc =
 
 const byoutakTitle = "Byoutak's The Godfather";
 const byoutakDescription =
-  "Hosted a Godfather-themed day of fun at the office. With custom artwork, games, and food!";
+  "Featuring a human-sized board game with truth-or-dare challenges and questions about Real Estate projects; topped off with a Casino-themed cake";
 const byoutakLocation = "Byoutak's Office";
 const byoutakTheme = "The Godfather";
 const byoutakProjectName = "byoutak-the-godfather";
